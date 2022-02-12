@@ -1,0 +1,179 @@
+/*GLOBAL*/
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color:#847b84;
+    color:#e8e6e5;
+    font-family: 'Raleway', sans-serif;
+}
+#copy{
+    z-index: 2;
+    position:fixed;
+    bottom : 2px;
+    font-size: 9px;
+    color : #e8e6e5;
+    right: 2em;
+}
+#accueil{
+    width:100%;
+    border: 1em solid #847b84;
+    background-color: #e8e6e5;
+    color: #847b84;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+/*HEADER*/
+#logo_nav{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*HEADER : MARK*/
+#mark{
+    height: 100%;
+    width: 10%;
+    display: flex;
+}
+
+#mark h1{
+    margin: auto;
+    font-size: 1.5em;
+    font-family: 'Love Light', cursive;
+}
+/*HEADER : NAVIGATION MENU*/
+#btn{
+    position:fixed;
+    top:6%;
+    right:5%;
+    background-color: #847b84;
+    color: #e8e6e5;
+    padding: 1rem;
+    border: none;
+    transition: transform 0.3s ease-in-out;
+    font-size: 1em;
+}
+nav{
+    position: fixed;
+    height:100vh;
+    top:0;
+    right:0;
+    background-color: #847b84;
+    padding:2rem;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    z-index:1;
+}
+nav.active{
+    transform: translateX(0);
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
+nav ul li {
+    list-style-type: none;
+    padding: 1rem 0;
+}
+nav ul li a{
+    color: #e8e6e5;
+    text-decoration: none;
+}
+/*HEADER : NAVIGATION MENU EFFECTS*/
+button.active{
+    transform: translateX(-100px);
+}
+nav ul li:hover{
+    transform: scale(1.1);
+}
+nav ul li a:hover, nav ul li a:hover{
+    color:#e8e6e5;
+}
+nav ul li:active{
+    transform: scale(0.9);
+}
+/*WEBSITE HEART*/
+#contact{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.media{
+    height: 30%;
+    width: 25%;
+    display:flex;
+}
+.logo{
+    height:100%;
+    width: 40%;
+    display:flex;
+}
+.logo a{
+    margin:auto;
+    color: #847b84;
+    text-decoration: none;
+}
+ion-icon {
+    font-size: 70px;
+}
+ion-icon:hover{
+    transform: scale(0.8);
+}
+ion-icon:active{
+    transform: scale(0.8);
+}
+.txt{
+    height: 100%;
+    width: 60%;
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.txt h2{
+    font-size: 17px;
+    font-weight: bold;
+    color : #454448;
+}
+.txt p{
+    font-size: 12px;
+    color:#454448;
+}
+/*MOBILE VERSION*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body{
+        font-size: 2vw;
+    }
+    #mark h1, nav ul li a, #btn{
+        font-size: 3vw;
+    }
+    #contact{
+        flex-direction: column;
+    }
+    .media{
+        width: 50%;
+    }
+    ion-icon {
+        font-size: 35px;
+    }
+    .txt h2{
+        font-size: 3vw;
+    }
+    .txt p{
+        font-size: 1.5vw;
+    }
+    #copy{
+        font-size: 1vw;
+    }
+}

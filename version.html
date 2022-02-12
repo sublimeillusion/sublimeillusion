@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="images/1[1]-modified.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Love+Light&family=Raleway:wght@300&display=swap" rel="stylesheet"> 
+    
+    <link rel="stylesheet" href="css/version.css" type="text/css">
+
+    <title>Sublime_illusion</title>
+</head>
+<body>
+    <section id="accueil">
+        <!--HEADER-->
+        <header id="logo_nav">
+
+            <!--HEADER : MARK-->
+            <div id="mark">
+                <h1>ελυ</h1>
+            </div>
+            
+            <!--HEADER : NAVIGATION MENU-->
+            <button id='btn'>☰</button>
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="ebook.html">Mon Essai</a></li>
+                    <li><a href="version.html">Autres format et versions</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--WEBSITE HEART-->
+        <section id="e_page">
+
+            <section id="ebook">
+                <section class="languette_dark">
+                    <!--COVER CARROUSSEL-->
+                    <div class="carrousel">
+                        <div class="container">
+                            <div class="images">
+                                <img src="images/vs_cover.png" alt="">
+                                <img src="images/vs_cover_envers.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--EBOOK DESCRIPTION-->
+                    <div class="description">
+                        <p class="description_text_dark">E-Book version PDF standard.</h2>
+                    </div>
+
+                    <!--DOWNALD BUTTON-->
+                    <div class="downald">
+                        <a href="ressources_PDF/E-Book version PDF standard.pdf" class="button_dark" downald="ressources_PDF/VC-Fragment de Vie, Fragment de Nuit.pdf" target="_blank">Download</a>
+                    </div>               
+                </section>
+                
+                <section class="languette">
+                    <!--COVER CARROUSSEL-->
+                    <div class="carrousel" >
+                        <div class="container">
+                            <div class="images">
+                                <img src="images/1.png" class="img" alt="">
+                                <img src="images/2.png" class="img" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--EBOOK DESCRIPTION-->
+                    <div class="description">
+                        <p class="description_text">E-Book version originale en PDF d'impression.</h2>
+                    </div>
+
+                    <!--DOWNALD BUTTON-->
+                    <div class="downald">
+                        <a href="ressources_PDF/VO-Fragment de Vie, Fragment de Nuit.pdf" class="button" downald="ressources_PDF/VO-Fragment de Vie, Fragment de Nuit.pdf" target="_blank">Download</a>
+                    </div>               
+                </section>
+
+                <section class="languette_dark">
+                    <!--COVER CARROUSSEL-->
+                    <div class="carrousel">
+                        <div class="container">
+                            <div class="images">
+                                <img src="images/vc_endroit.png" alt="">
+                                <img src="images/vc_envers.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--EBOOK DESCRIPTION-->
+                    <div class="description">
+                        <p class="description_text_dark">E-Book version PDF d'impression économique en couleur.</h2>
+                    </div>
+
+                    <!--DOWNALD BUTTON-->
+                    <div class="downald">
+                        <a href="ressources_PDF/VC-Fragment de Vie, Fragment de Nuit.pdf" class="button_dark" downald="ressources_PDF/VC-Fragment de Vie, Fragment de Nuit.pdf" target="_blank">Download</a>
+                    </div>               
+                </section>
+
+                <section class="languette">
+                    <!--COVER CARROUSSEL-->
+                    <div class="carrousel">
+                        <div class="container">
+                            <div class="images">
+                                <img src="images/ve_endroit.png" alt="">
+                                <img src="images/ve_envers.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--EBOOK DESCRIPTION-->
+                    <div class="description">
+                        <p class="description_text">E-Book version PDF simplifiée (à l'endroit).</h2>
+                    </div>
+
+                    <!--DOWNALD BUTTON-->
+                    <div class="downald">
+                        <a href="ressources_PDF/VE-Fragment de Vie, Fragment de Nuit.pdf" class="button" downald="ressources_PDF/VE-Fragment de Vie, Fragment de Nuit.pdf" target="_blank">Download</a>
+                    </div>               
+                </section>
+
+                <section class="languette_dark">
+                    <!--COVER CARROUSSEL-->
+                    <div class="carrousel">
+                        <div class="container">
+                            <div class="images">
+                                <img src="images/vbw_endroit.png" alt="">
+                                <img src="images/vbw_envers.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--EBOOK DESCRIPTION-->
+                    <div class="description">
+                        <p class="description_text_dark">E-Book version d'impression économique en noir et blanc.</h2>
+                    </div>
+
+                    <!--DOWNALD BUTTON-->
+                    <div class="downald">
+                        <a href="ressources_PDF/VBW-Fragment de Vie, Fragment de Nuit.pdf" class="button_dark" downald="ressources_PDF/VBW-Fragment de Vie, Fragment de Nuit.pdf" target="_blank">Download</a>
+                    </div>               
+                </section>
+                   
+            </section>
+
+
+        </section>
+    </section>
+
+    <p id="copy">&copy;Coyright | 2021, M.E tous droits réservés</p>
+    <script>
+            const img = document.querySelectorAll('img');
+            const images = document.getElementsByClassName('images');
+            let idx = 0;
+        
+                function carroussel(){
+        
+                    idx++;
+        
+                    if(idx > 1){
+                    idx=0;
+                    }
+        
+                    var change = -idx * 100;
+                    images[0].style.transform = "translateX(" + change + "px)";
+                    images[1].style.transform = "translateX(" + change + "px)";
+                    images[2].style.transform = "translateX(" + change + "px)";
+                    images[3].style.transform = "translateX(" + change + "px)";
+                    images[4].style.transform = "translateX(" + change + "px)";
+                }
+        
+                setInterval(carroussel, 1500);
+    </script>
+    <script src="js/index.js"></script>
+</body>
+</html>
