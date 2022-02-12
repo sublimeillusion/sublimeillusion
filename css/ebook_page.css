@@ -178,7 +178,7 @@ span{
     width:100%;
     display:flex;
 }
-#button{
+.button{
     margin:auto;
     text-decoration: none;
     padding: 11px;
@@ -190,12 +190,12 @@ span{
     font-size: 11px;
 }
 /*DOWNALD BUTTON EFFECTS*/
-#button:hover{
+.button:hover{
     background-color: #847b84;
     color:  #e8e6e5;
     transition-duration: 1s;
 }
-#button:active{
+.button:active{
     background-color: #847b84;
     color:  #e8e6e5;
     transition-duration: 1s;
