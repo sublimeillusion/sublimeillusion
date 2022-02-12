@@ -133,19 +133,20 @@ span{
     padding: 15px;
     box-sizing: border-box;
     border-radius: 4px;
-    border: 1px solid #454448;
-    color: #454448;
+    border: 1px solid #e8e6e5;
+    color: #e8e6e5;
     font-weight: bold;
+    background-color : #454448;
 }
 /*DOWNALD BUTTON EFFECTS*/
 #button:hover{
-    background-color: #454448;
-    color:  #e8e6e5;
+    background-color:  #e8e6e5;
+    color:  #454448;
     transition-duration: 1s;
 }
 #button:active{
-    background-color: #454448;
-    color:  #e8e6e5;
+    background-color:  #e8e6e5;
+    color:  #454448;
     transition-duration: 1s;
 }
 /*MOBILE VERSION*/
