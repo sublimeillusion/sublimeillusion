@@ -216,15 +216,13 @@ span{
 }
 /*DOWNALD BUTTON EFFECTS*/
 #button2:hover{
-    background-color:  #e8e6e5;
-    color:  #847b84;
+    background-color:  #847b84;
     border: 1px solid #847b84;
     transition-duration: 1s;
 }
 #button2:active{
-    background-color:  #e8e6e5;
+    background-color:  #847b84;
     border: 1px solid #847b84;
-    color:  #847b84;
     transition-duration: 1s;
 }
 /*MOBILE VERSION*/
