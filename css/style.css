@@ -143,11 +143,13 @@ span{
     background-color:  #e8e6e5;
     color:  #454448;
     transition-duration: 1s;
+    border: 1px solid #454448;
 }
 #button:active{
     background-color:  #e8e6e5;
     color:  #454448;
     transition-duration: 1s;
+    border: 1px solid #454448;
 }
 /*MOBILE VERSION*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
