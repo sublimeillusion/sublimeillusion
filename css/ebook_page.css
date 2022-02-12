@@ -191,7 +191,7 @@ span{
 }
 /*DOWNALD BUTTON EFFECTS*/
 #button:hover{
-    background-color: #*847b84;
+    background-color: #847b84;
     color:  #e8e6e5;
     transition-duration: 1s;
 }
