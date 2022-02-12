@@ -184,19 +184,19 @@ span{
     padding: 11px;
     box-sizing: border-box;
     border-radius: 4px;
-    border: 1px solid #454448;
+    border: 1px solid #847b84;
     color: #454448;
     font-weight: bold;
     font-size: 11px;
 }
 /*DOWNALD BUTTON EFFECTS*/
 #button:hover{
-    background-color: #454448;
+    background-color: #*847b84;
     color:  #e8e6e5;
     transition-duration: 1s;
 }
 #button:active{
-    background-color: #454448;
+    background-color: #847b84;
     color:  #e8e6e5;
     transition-duration: 1s;
 }
