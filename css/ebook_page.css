@@ -178,7 +178,7 @@ span{
     width:100%;
     display:flex;
 }
-.button{
+#button{
     margin:auto;
     text-decoration: none;
     padding: 11px;
@@ -190,14 +190,36 @@ span{
     font-size: 11px;
 }
 /*DOWNALD BUTTON EFFECTS*/
-.button:hover{
+#button:hover{
     background-color: #847b84;
     color:  #e8e6e5;
     transition-duration: 1s;
 }
-.button:active{
+#button:active{
     background-color: #847b84;
     color:  #e8e6e5;
+    transition-duration: 1s;
+}
+#button2{
+    margin-top: 10%;
+    text-decoration: none;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid #e8e6e5;
+    color: #e8e6e5;
+    font-weight: bold;
+    background-color : #847b84;
+}
+/*DOWNALD BUTTON EFFECTS*/
+#button2:hover{
+    background-color:  #e8e6e5;
+    color:  #847b84;
+    transition-duration: 1s;
+}
+#button2:active{
+    background-color:  #e8e6e5;
+    color:  #847b84;
     transition-duration: 1s;
 }
 /*MOBILE VERSION*/
